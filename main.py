@@ -50,10 +50,20 @@
 #     print("PM")
 # else:
 #     print("AM")
-hours = int(input("Enter hours: "))
-if hours >= 12 and hours < 24:
-    print("PM")
-elif hours >= 0 and hours < 12:
-    print("AM")
-else:
-    print("Incorrect hours!")
+# hours = int(input("Enter hours: "))
+# if hours >= 12 and hours < 24:
+#     print("PM")
+# elif hours >= 0 and hours < 12:
+#     print("AM")
+# else:
+#     print("Incorrect hours!")
+
+##########################
+
+# film_rating = int(input("Enter film rating:  "))
+# if film_rating == 4 or film_rating == 5:
+#     print("OK")
+# else:
+#     print("Not OK")
+
+###########################
