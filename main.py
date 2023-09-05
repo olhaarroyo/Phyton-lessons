@@ -23,4 +23,24 @@
 # print("Result:", area)
 #
 #git
-print("hello world")
+# print("hello world")
+# print ("2")
+# n1 = 10 + 20 * 2
+# n2 = 20
+
+# n1, n2 = 10, 20 + 10
+# print(n1 > n2)
+# print (n1 >= n2)
+# print(n1 < n2)
+# print (n1 <= n2)
+# print (n1 == n2)
+# print(n1 != n2)
+
+# print(1 == 1 and 3 == 3)
+# print(1 == 1 or 2 == 3)
+# is_valid = False
+# print(is_valid)
+# print(not is_valid)
+
+# print("hello" in "hello world")
+
