@@ -84,18 +84,36 @@
 #     print("Incorrect hours!")
 
 
-
-######################
+##########################################################
 # Завдання 1 (дз2)
-# Вопрос - тут сделано очень примитивно, смотрела туториалы. Понимаю что тут не то что нужно, но оно как-то работает
-# n1 = float(input("Enter digit: "))
-# n2 = float(input("Enter digit: "))
-# n3 = float(input("Enter digit: "))
-# result = max(n1, n2, n3)
-# print(f"max: {result}")
-# result = min(n1, n2, n3)
-# print(f"min: {result}")
+#знаходимо найменше число :
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
+# if n1 < n2 < n3:
+#     print(n1)
+# elif n2 < n3 < n1:
+#     print(n2)
+# elif n3 < n2 < n1:
+#     print(n3)
 
-# Завдання 2(дз2)
-# Вопрос самый банальный - как присвоить дюймам\ метрам\ ярдам значения, через какую функцию? смотрела разные варианты, но мы их не учили
-# Meters = float(input("Enter meters: "))
+#знаходимо найбільше число :
+
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
+# if n1 > n2 > n3:
+#     print(n1)
+# elif n2 > n3 > n1:
+#     print(n2)
+# elif n3 > n2 > n1:
+#     print(n3)
+
+###############################
+# Завдання 2 (дз2)
+# meters = float(input("Enter meters: "))
+# yards = 0.9144
+# result = meters * yards
+# print (meters * yards)
+
+
