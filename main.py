@@ -111,9 +111,9 @@
 
 ###############################
 # Завдання 2 (дз2)
-# meters = float(input("Enter meters: "))
-# yards = 0.9144
+# yards = float(input("Enter meters: "))
+# meters = 0.9144
 # result = meters * yards
 # print (meters * yards)
 
-
+print("merge conflict example")
