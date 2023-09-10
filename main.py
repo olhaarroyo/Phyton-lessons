@@ -1,69 +1,58 @@
-
 # Завдання 1
-# number1 = 8
-# number2 = 3
-# number3 = 4
-# sum_result = number1 + number2 + number3
-# print("result:", sum_result)
-
-#Завдання 3
-
-# number = 3553
-# number_str = str(number)
-# product_result = 1
-# for digit in number_str:
-#     product_result *= int(digit)
-# print("result:", product_result)
-######################################
-
-#Завдання 2
-# Side = int(input("Enter the length: "))
-# Height = int(input("Enter the height: "))
-# area = Side * Height
-# print("Result:", area)
+# try:
+#     user_select = int(input("Enter menu number: "))
 #
-#git
-# print("hello world")
-# print ("2")
-# n1 = 10 + 20 * 2
-# n2 = 20
+#     if user_select == 1:
+#         print("Monday")
+#     elif user_select == 2:
+#         print("Tuesday")
+#     elif user_select == 3:
+#         print("Wensday")
+#     elif user_select == 4:
+#         print("Thursday")
+#     elif user_select == 5:
+#         print("Friday")
+#     elif user_select == 6:
+#         print ("Saturday")
+#     elif user_select == 7:
+#         print ("Sunday")
+#     else:
+#         print("Incorrect!")
+#
+#
+# except Exception as e:
+#     print(f"Error: {e}")
 
-# n1, n2 = 10, 20 + 10
-# print(n1 > n2)
-# print (n1 >= n2)
-# print(n1 < n2)
-# print (n1 <= n2)
-# print (n1 == n2)
-# print(n1 != n2)
 
-# print(1 == 1 and 3 == 3)
-# print(1 == 1 or 2 == 3)
-# is_valid = False
-# print(is_valid)
-# print(not is_valid)
-
-# print("hello" in "hello world")
-
-# hours = int(input("Enter hours: "))
-
-# if hours >= 12:
-#     print("PM")
+##################################
+# Завдання 2
+# try:
+#     num1 = int(input("Enter first number: "))
+#     num2 = int(input("Enter second number: "))
+#     result = (num1 >num2)
+#     print(f"Result: {result}")
+# except ValueEror as error:
+#     print("Enter only integer numbers!")
+#     print(f"ValueError: {error}")
 # else:
-#     print("AM")
-# hours = int(input("Enter hours: "))
-# if hours >= 12 and hours < 24:
-#     print("PM")
-# elif hours >= 0 and hours < 12:
-#     print("AM")
-# else:
-#     print("Incorrect hours!")
+#     min_num = min(num1, num2)
+#     max_num = max(num1, num2)
 
-##########################
+    # print(f" {min_num}, {max_num}")
+#############################
 
-# film_rating = int(input("Enter film rating:  "))
-# if film_rating == 4 or film_rating == 5:
-#     print("OK")
-# else:
-#     print("Not OK")
+# Завдання 3
+# try:
+#     num1 = int(input("Enter first number: "))
+#     num2 = int(input("Enter second number: "))
+#     result = (num1 / num2)
+#     print(f"Result: {result}")
+# except ZeroDivisionError as error:
+#     print("impossible!")
+#     print(f"Error: {error}")
 
-###########################
+
+
+
+
+
