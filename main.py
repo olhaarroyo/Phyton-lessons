@@ -1,29 +1,23 @@
 # Завдання 1
-# try:
-#     user_select = int(input("Enter menu number: "))
-#
-#     if user_select == 1:
+
+# user_select = int(input("Enter menu number: "))
+# match user_select:
+#     case 1:
 #         print("Monday")
-#     elif user_select == 2:
+#     case 2:
 #         print("Tuesday")
-#     elif user_select == 3:
+#     case 3:
 #         print("Wensday")
-#     elif user_select == 4:
+#     case 4:
 #         print("Thursday")
-#     elif user_select == 5:
+#     case 5:
 #         print("Friday")
-#     elif user_select == 6:
-#         print ("Saturday")
-#     elif user_select == 7:
-#         print ("Sunday")
-#     else:
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
 #         print("Incorrect!")
-#
-#
-# except Exception as e:
-#     print(f"Error: {e}")
-
-
 ##################################
 # Завдання 2
 # try:
@@ -50,6 +44,37 @@
 # except ZeroDivisionError as error:
 #     print("impossible!")
 #     print(f"Error: {error}")
+
+# select = input("Choose operation: (+, -, *, /): ")
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+#
+# if select == "+":
+#     result = (num1 + num2)
+#
+#     print(f"Result: {result}")
+#
+# elif select == "-":
+#     result = (num1 - num2)
+#
+#     print(f"Result: {result}")
+#
+#
+# elif select == "*":
+#     result = (num1 * num2)
+#
+#     print(f"Result: {result}")
+#
+# elif select == "/":
+#     result = (num1 / num2)
+#     # if num2 != 0:
+#     # print(f"Result: {result}")
+#
+#
+# # ZeroDivisionError
+# # print(f"Zero division impossible: {error}")
+
+
 
 
 
